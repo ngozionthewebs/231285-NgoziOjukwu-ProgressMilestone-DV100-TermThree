@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Libre+Baskerville:wght@400;700&family=Yuji+Boku&display=swap');
+
+/* ---------------------------------------------------------------- */
+/* Global Styles */
+
+/* Fonts */
+
+p{
+    font-family: 'Archivo', sans-serif;
+    font-size: 24px;
+}
+
+/* Spacing */
+
+
+
+/* ---------------------------------------------------------------- */
+/* Components */
+
+
+
+
+
+
+/* Bootstrap Component Overrides */
+
+
+/* Navigation */
+
+.nav-link {
+    font-family: 'Libre Baskerville', serif;
+    color: #F2F2F2;
+}
+
+.nav-link:hover {
+    color: #8C0325;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #F2F2F2;
+    color: #F2F2F2;
+}
+
+/* Section 2 */
+
+
+.text-box{
+    width: 100%;
+    height: 363px;
+    background: #8C0325;
+    padding-top: 35px;
+    padding-left: 59px;
+    padding-right: 385px;
+   
+    color: white;
+}
+
+.text-box h1{
+    font-size: 48px;
+    padding-bottom: 30px;
+    
+}
+
+.text-box h1{
+    font-family: 'Libre Baskerville', serif;  
+}
+
+

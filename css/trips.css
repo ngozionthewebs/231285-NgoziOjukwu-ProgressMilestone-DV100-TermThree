@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Libre+Baskerville:wght@400;700&family=Yuji+Boku&display=swap');
+
+
+/* ---------------------------------------------------------------- */
+/* Global Styles */
+
+/* Fonts */
+
+p{
+    font-family: 'Archivo', sans-serif;
+    font-size: 24px;
+}
+
+body{
+    width: 1440px;
+    height: 3799px;
+    background-image: url(../assets/trips-background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Navigation */
+
+.nav-link {
+    font-family: 'Libre Baskerville', serif;
+    color: #F2F2F2;
+}
+
+.nav-link:hover {
+    color: #8C0325;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #F2F2F2;
+    color: #F2F2F2;
+}
