@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Libre+Baskerville:wght@400;700&family=Yuji+Boku&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:wght@400;700&family=Yuji+Boku&display=swap');
 
 /* ---------------------------------------------------------------- */
 /* Global Styles */
@@ -7,7 +6,7 @@
 /* Fonts */
 
 p{
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Inter', sans-serif;;
     font-size: 24px;
 }
 
