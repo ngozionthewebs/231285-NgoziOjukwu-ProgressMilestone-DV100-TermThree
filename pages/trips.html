@@ -47,30 +47,36 @@
         <h2  class="headings mt-5 pt-5" >France</h2>
 
         <!--Trip Options Cards-->
-          <div class="row">
+          <div class="row py-5 gy-3" id="tripCon">
 
-                <div class="col-6">
 
-                  <!--Card Element-->
+            <!--Trip Card Template-->
 
-                  <div class="card mt-5 pt-5 " >
-                    <div class="image">
-                      <img  src="../assets/card-image1.png" class="card-img-top" alt="...">
-                    </div>  
-                      <div class="card-body">
-                          <h5 class="card-title" style="font-size: 44px;">Paris</h5>
-                          <p class="card-text" id="tripText">Paris: Elegance on the Seine. Iconic landmarks, artistic heritage, and culinary delights intertwine seamlessly, embracing both history and modernity.</p>
-                          <p class="card-text" style="font-size: 24px; font-weight: 500;" id="costText" >$1000</p>
+              <template id="tripTemplate">
+                
+                  <div class="col-6">
 
-                          <a href="#" class="btn btn-primary ">Go somewhere</a>
-                      </div>
+                    <!--Card Element-->
+
+                    <div class="card mt-5 pt-5 " >
+                      <div class="image">
+                        <img  src="../assets/card1.png" class="card-img-top" alt="...">
+                      </div>  
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-size: 44px;" id="placeText">Paris</h5>
+                            <p class="card-text" id="tripText">Paris: Elegance on the Seine. Iconic landmarks, artistic heritage, and culinary delights intertwine seamlessly, embracing both history and modernity.</p>
+                            <p class="card-text" style="font-size: 24px; font-weight: 500;" id="costText" >$1000</p>
+
+                            <a href="#" class="btn btn-primary ">Go somewhere</a>
+                        </div>
+                    </div>
+
+
+
+                    
                   </div>
 
-
-
-                  
-                </div>
-
+              </template>    
           </div>
 
 

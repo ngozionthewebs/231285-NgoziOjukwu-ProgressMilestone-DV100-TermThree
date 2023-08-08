@@ -51,6 +51,7 @@ body{
     border: none;
     color: white;
     margin-left: 150px;
+    padding-bottom: 200px;
 }
 
 .image :hover{
