@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:wght@400;700&family=Yuji+Boku&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 /* ---------------------------------------------------------------- */
 /* Global Styles */
 
@@ -65,5 +66,14 @@ p{
 .text-box h1{
     font-family: 'Libre Baskerville', serif;  
 }
+
+
+section{
+    
+    width: 1440px;
+    height: 1511px;
+    background-image: url(../assets/homebackdrop2.png);
+}
+
 
 
